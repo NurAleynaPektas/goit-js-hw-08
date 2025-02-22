@@ -1,7 +1,10 @@
 .gallery {
+  width: 1128px;
   display: grid;
+  align-items: center;
+  justify-self: center;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  gap: 5px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -10,7 +13,6 @@
 .galleryLi {
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
 }
 
 .galleryLink {
@@ -19,10 +21,10 @@
 }
 
 .galleryImg {
-  width: 100%;
-  height: auto;
+  width: 360px;
+  height: 200px;
   display: block;
-  border-radius: 8px;
+
   transition: transform 0.3s ease-in-out;
 }
 
